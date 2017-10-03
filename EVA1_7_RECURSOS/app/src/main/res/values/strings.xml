@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">EVA1_7_RECURSOS</string>
+    <string name="hint_nombre_es">ESCRIBE TU NOMBRE</string>
+    <string name="hint_apellido_es">ESCRIBE TU APELLIDO</string>
+    <string name="hint_edad_es">ESCRIBE TU EDAD</string>
+    <string name="view_nombre_es">NOMBRE</string>
+    <string name="view_apellido_es">APELLIDO</string>
+    <string name="view_edad_es">EDAD</string>
+    <string name="hint_nombre_en">TYPE YOUR NAME</string>
+    <string name="hint_apellido_en">TYPE YOUR LAST NAME</string>
+    <string name="hint_edad_en">TYPE YOUR AGE</string>
+    <string name="view_nombre_en">NAME</string>
+    <string name="view_apellido_en">LAST NAME</string>
+    <string name="view_edad_en">AGE</string>
+    <string name="hint_nombre_it">SCRIVI IL TUO NOME</string>
+    <string name="hint_apellido_it">SCRIVI IL TUO COGNOME </string>
+    <string name="hint_edad_it">SCRIVI LA TUA ETA </string>
+    <string name="view_nombre_it">NOME</string>
+    <string name="view_apellido_it"> COGNOME</string>
+    <string name="view_edad_it">ETA</string>
+</resources>

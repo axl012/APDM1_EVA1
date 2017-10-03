@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hipo.prop.app.axel.com.eva1_5_eventoss.Principal">
+
+    <Button
+        android:id="@+id/btnXML"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="miClick"
+        android:text="XML" />
+
+    <Button
+        android:id="@+id/btnClick"
+        android:onClick="onClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OnClickListener" />
+
+    <Button
+        android:id="@+id/btnAnon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clase Anonima" />
+</LinearLayout>

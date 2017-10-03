@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hipo.prop.app.axel.com.eva1_8_practica1.Principal">
+
+    <RadioGroup
+        android:id="@+id/rdgpMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rdbtnAmericano"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Americano ($20)" />
+
+        <RadioButton
+            android:id="@+id/rdbtnCapuchino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Capuchino ($48)" />
+
+        <RadioButton
+            android:id="@+id/rdbtnExpresso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Expresso ($30)" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/txtCantidad"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:text="Cantidad:" />
+
+        <EditText
+            android:id="@+id/edtxtCantidad"
+            android:textStyle="bold"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.07"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtExtras"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Extras:" />
+
+    <CheckBox
+        android:id="@+id/cboxAzucar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Azucar ($1)" />
+
+    <CheckBox
+        android:id="@+id/cboxCrema"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crema ($1)" />
+
+    <TextView
+        android:id="@+id/txtDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Descripcion de la compra"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/edtxtCompra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/btnTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="onClick"
+        android:text="Total" />
+
+
+</LinearLayout>
